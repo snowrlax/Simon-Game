@@ -68,7 +68,7 @@ function animatePress(currentColour) {
     $(`.${currentColour}`).addClass('pressed');
     setInterval(() => {
         $(`.${currentColour}`).removeClass('pressed');
-    }, 100);
+    }, 1000);
 }
 
 
